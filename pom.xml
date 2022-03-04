@@ -43,7 +43,12 @@
 			<version>8.0.28</version>
 			<scope>runtime</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.3.16</version>
+        </dependency>
+    </dependencies>
 
 
 	<build>
