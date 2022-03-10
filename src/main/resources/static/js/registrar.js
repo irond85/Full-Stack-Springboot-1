@@ -25,6 +25,9 @@ async function registrarUsuarios() {
         },
         body: JSON.stringify(datos)
     });    
+
+    alert('Usuario creado exitosamente!');
+    window.location.href = "login.html"
 }
   
 
